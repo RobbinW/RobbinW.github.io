@@ -3,56 +3,99 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a Research Assistant at **The Chinese University of Hong Kong, Shenzhen**, working on **embodied AI**, **robotic manipulation**, **visuomotor policy learning**, and **bimanual coordination**. I received my B.Eng. in **Automation Engineering** from **Harbin Institute of Technology, Weihai** in 2025.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My recent work focuses on learning manipulation skills from human videos, transferring semantics from foundation models into robot policies, and building gesture-conditioned affordance reasoning for task-aware grasping. According to my Google Scholar profile, I have **48 citations**, an **h-index of 3**, and an **i10-index of 1** as of **March 18, 2026**.
 
+[Curriculum Vitae](files/CV_Ruixiang_Wang.pdf) / [Google Scholar](https://scholar.google.com/citations?user=u2_lz64AAAAJ&hl=zh-CN) / [OpenReview](https://openreview.net/profile?id=~Ruixiang_Wang3)
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<span class='anchor' id='selected-publications'></span>
 
-# 📝 Publications 
+# Selected Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS 2025</div><img src='images/papers/yoto.png' alt="YOTO teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[You Only Teach Once: Learn One-Shot Bimanual Robotic Manipulation from Video Demonstrations](https://www.roboticsproceedings.org/rss21/p149.pdf)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+Huayi Zhou, **Ruixiang Wang**, Yunxin Tai, Yueci Deng, Guiliang Liu, Kui Jia
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Paper**](https://www.roboticsproceedings.org/rss21/p149.pdf) [**Project**](https://hnuzhy.github.io/projects/YOTO/) [**arXiv**](https://arxiv.org/abs/2501.14208) [**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=u2_lz64AAAAJ&citation_for_view=u2_lz64AAAAJ:2osOgNQ5qMEC)  
+Google Scholar citations: **31** (captured on March 18, 2026).
+
+- A one-shot framework that transfers bimanual hand motion patterns from human videos to dual-arm robots for long-horizon manipulation.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RAL 2025</div><img src='images/papers/imitdiff.png' alt="ImitDiff overview" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[ImitDiff: Transferring Foundation-Model Priors for Distraction-Robust Visuomotor Policy](https://arxiv.org/abs/2502.09649)
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+Yutong Dong, Haizhou Ge, Yinuo Zeng, Jiaming Zhang, Bowen Tian, Haotian Zhu, Yifei Jia, **Ruixiang Wang**, Zhihao Xue, et al.
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+[**Paper**](https://arxiv.org/pdf/2502.09649) [**arXiv**](https://arxiv.org/abs/2502.09649) [**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=u2_lz64AAAAJ&citation_for_view=u2_lz64AAAAJ:IjCSPb-OGe4C)  
+Google Scholar citations: **7** (captured on March 18, 2026).
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- A semantics-guided diffusion policy that transfers foundation-model priors into dual-resolution visuomotor perception for distraction-robust manipulation.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/papers/diffcoord.png' alt="Diffusion-based imaginative coordination overview" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Diffusion-Based Imaginative Coordination for Bimanual Manipulation](https://arxiv.org/abs/2507.11296)
+
+Huilin Xu, Jian Ding, Jiakun Xu, **Ruixiang Wang**, Jun Chen, Jinjie Mai, Yanwei Fu, Bernard Ghanem, Feng Xu, Mohamed Elhoseiny
+
+[**Paper**](https://arxiv.org/pdf/2507.11296) [**arXiv**](https://arxiv.org/abs/2507.11296) [**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=u2_lz64AAAAJ&citation_for_view=u2_lz64AAAAJ:UeHWp8X0CEIC)  
+Google Scholar citations: **5** (captured on March 18, 2026).
+
+- A unified diffusion framework that jointly models action prediction and future video generation to improve bimanual coordination.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS 2025</div><img src='images/papers/gat-grasp.png' alt="GAT-Grasp overview" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[GAT-Grasp: Gesture-Driven Affordance Transfer for Task-Aware Robotic Grasping](https://arxiv.org/abs/2503.06227)
+
+**Ruixiang Wang**, Huayi Zhou, Xinyue Yao, Guiliang Liu, Kui Jia
+
+[**Paper**](https://arxiv.org/pdf/2503.06227) [**arXiv**](https://arxiv.org/abs/2503.06227) [**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=u2_lz64AAAAJ&citation_for_view=u2_lz64AAAAJ:9yKSN-GCB0IC)  
+Google Scholar citations: **3** (captured on March 18, 2026).
+
+- A gesture-driven affordance transfer framework that grounds task-aware grasp pose generation in human pointing and grasp gestures.
+</div>
+</div>
+
+<span class='anchor' id='experience'></span>
+
+# Experience
+
+- *Oct. 2024 - Present*, **Research Assistant**, The Chinese University of Hong Kong, Shenzhen, Shenzhen, China.
+- *Jul. 2024 - Sep. 2024*, **Summer Intern**, Institute for AI Industry Research, Tsinghua University, Wuxi, China.
+- *Sep. 2022 - Jun. 2023*, **Core Member**, UAV Innovation Lab, Harbin Institute of Technology, Weihai, China.
+
+<span class='anchor' id='education'></span>
+
+# Education
+
+- *Sep. 2021 - May 2025*, **B.Eng. in Automation Engineering**, Harbin Institute of Technology, Weihai. GPA: 91.39/100, 3.96/4.00.
+
+<span class='anchor' id='awards'></span>
+
+# Awards
+
+- *2024*, Renmin Scholarship, Harbin Institute of Technology.
+- *2023*, First Prize, Shandong Province Optoelectronic Design Competition.
+- *2023*, Honorable Mention, Interdisciplinary Contest in Modeling (ICM).
+- *2023*, Mitacs Globalink Research Scholarship.
+- *2022*, Outstanding Student, Harbin Institute of Technology.

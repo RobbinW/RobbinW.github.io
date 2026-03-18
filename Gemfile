@@ -16,7 +16,9 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# `wdm` improves file watching on Windows, but the pinned version in this
+# template does not build against newer Ruby releases such as 3.3.
+gem "wdm", "~> 0.1.0" if Gem.win_platform? && Gem::Version.new(RUBY_VERSION) < Gem::Version.new("3.3")
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
