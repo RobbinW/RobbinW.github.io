@@ -16,7 +16,6 @@ During my undergraduate studies, I conducted research at the Institute for AI In
 
 My research interests lie in enabling intelligent systems to better perceive and interact with the physical world. In particular, I am interested in developing generalizable robotic manipulation policies, and exploring world models that support reliable and physically grounded decision-making.
 
-[Google Scholar](https://scholar.google.com/citations?user=u2_lz64AAAAJ&hl=zh-CN) / [OpenReview](https://openreview.net/profile?id=~Ruixiang_Wang3)
 
 <span class='anchor' id='selected-publications'></span>
 
