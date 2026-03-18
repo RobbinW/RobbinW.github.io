@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Ruixiang Wang"
-description              : "Embodied AI, robotic manipulation, visuomotor policy learning, and bimanual coordination."
+description              : 
 repository               : "RobbinW/RobbinW.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,9 +23,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Ruixiang Wang"
   avatar           : "images/ruixiang-wang.jpg"
-  bio              : "First-year PhD Student in Embodied AI and Robotics"
+  bio              : "PhD Student at School of Data Science, The Chinese University of Hong Kong, Shenzhen"
   location         : "Shenzhen, China"
-  employer         : "The Chinese University of Hong Kong, Shenzhen"
+  employer         : "CUHK-SZ"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=u2_lz64AAAAJ&hl=zh-CN"
   email            : "1203267147@qq.com"

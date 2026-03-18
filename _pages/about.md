@@ -10,11 +10,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a first-year PhD student at **The Chinese University of Hong Kong, Shenzhen**, working on **embodied AI**, **robotic manipulation**, **visuomotor policy learning**, and **bimanual coordination**. I received my B.Eng. in **Automation Engineering** from **Harbin Institute of Technology, Weihai** in 2025.
+I am a first-year CS Ph.D. student at the School of Data Science, Chinese University of Hong Kong, Shenzhen (CUHK-SZ), supervised by Prof [Kui Jia](http://kuijia.site/).  I received my B.Eng. in **Automation Engineering** from **Harbin Institute of Technology, Weihai** (2021-2025).  I am interested in enabling robots to generate reliable, physically executable behaviors in real-world environments.
 
-My recent work focuses on learning manipulation skills from human videos, transferring semantics from foundation models into robot policies, and building gesture-conditioned affordance reasoning for task-aware grasping.
-
-[Google Scholar](https://scholar.google.com/citations?user=u2_lz64AAAAJ&hl=zh-CN) / [OpenReview](https://openreview.net/profile?id=~Ruixiang_Wang3)
 
 <span class='anchor' id='selected-publications'></span>
 
@@ -27,7 +24,7 @@ My recent work focuses on learning manipulation skills from human videos, transf
 
 Huayi Zhou, **Ruixiang Wang**, Yunxin Tai, Yueci Deng, Guiliang Liu, Kui Jia
 
-[**Paper**](https://www.roboticsproceedings.org/rss21/p149.pdf) [**Project**](https://hnuzhy.github.io/projects/YOTO/) [**arXiv**](https://arxiv.org/abs/2501.14208) [**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=u2_lz64AAAAJ&citation_for_view=u2_lz64AAAAJ:2osOgNQ5qMEC)  
+[**Paper**](https://www.roboticsproceedings.org/rss21/p149.pdf) [**Project**](https://hnuzhy.github.io/projects/YOTO/) [**arXiv**](https://arxiv.org/abs/2501.14208) 
 
 - A one-shot framework that transfers bimanual hand motion patterns from human videos to dual-arm robots for long-horizon manipulation.
 </div>
@@ -40,7 +37,7 @@ Huayi Zhou, **Ruixiang Wang**, Yunxin Tai, Yueci Deng, Guiliang Liu, Kui Jia
 
 Huilin Xu, Jian Ding, Jiakun Xu, **Ruixiang Wang**, Jun Chen, Jinjie Mai, Yanwei Fu, Bernard Ghanem, Feng Xu, Mohamed Elhoseiny
 
-[**Paper**](https://arxiv.org/pdf/2507.11296) [**arXiv**](https://arxiv.org/abs/2507.11296) [**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=u2_lz64AAAAJ&citation_for_view=u2_lz64AAAAJ:UeHWp8X0CEIC)  
+[**Paper**](https://arxiv.org/pdf/2507.11296) [**arXiv**](https://arxiv.org/abs/2507.11296) 
 
 - A unified diffusion framework that jointly models action prediction and future video generation to improve bimanual coordination.
 </div>
@@ -53,7 +50,7 @@ Huilin Xu, Jian Ding, Jiakun Xu, **Ruixiang Wang**, Jun Chen, Jinjie Mai, Yanwei
 
 **Ruixiang Wang**, Huayi Zhou, Xinyue Yao, Guiliang Liu, Kui Jia
 
-[**Paper**](https://arxiv.org/pdf/2503.06227) [**arXiv**](https://arxiv.org/abs/2503.06227) [**Google Scholar**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=u2_lz64AAAAJ&citation_for_view=u2_lz64AAAAJ:9yKSN-GCB0IC)  
+[**Paper**](https://arxiv.org/pdf/2503.06227) [**arXiv**](https://arxiv.org/abs/2503.06227) 
 
 - A gesture-driven affordance transfer framework that grounds task-aware grasp pose generation in human pointing and grasp gestures.
 </div>
@@ -63,10 +60,10 @@ Huilin Xu, Jian Ding, Jiakun Xu, **Ruixiang Wang**, Jun Chen, Jinjie Mai, Yanwei
 
 # Experience
 
-- *2025 - Present*, **PhD Student**, The Chinese University of Hong Kong, Shenzhen, Shenzhen, China.
-- *Oct. 2024 - 2025*, **Research Assistant**, The Chinese University of Hong Kong, Shenzhen, Shenzhen, China.
-- *Jul. 2024 - Sep. 2024*, **Summer Intern**, Institute for AI Industry Research, Tsinghua University, Wuxi, China.
-- *Sep. 2022 - Jun. 2023*, **Core Member**, UAV Innovation Lab, Harbin Institute of Technology, Weihai, China.
+- *2025 - Present*, **PhD Student**, The Chinese University of Hong Kong, Shenzhen.
+- *Oct. 2024 - 2025*, **Research Assistant**, The Chinese University of Hong Kong, Shenzhen.
+- *Jul. 2024 - Sep. 2024*, **Summer Intern**, Institute for AI Industry Research, Tsinghua University.
+- *Sep. 2022 - Jun. 2023*, **Core Member**, UAV Innovation Lab, Harbin Institute of Technology.
 
 <span class='anchor' id='education'></span>
 
