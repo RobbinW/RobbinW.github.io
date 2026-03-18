@@ -25,11 +25,11 @@ My research interests lie in enabling intelligent systems to better perceive and
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/papers/eva.png' alt="EVA overview" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[EVA: Aligning Video World Models with Executable Robot Actions via Inverse Dynamics Rewards](https://eva-project-page.github.io/assets/docs/eva-project-draft.pdf)
+[EVA: Aligning Video World Models with Executable Robot Actions via Inverse Dynamics Rewards]
 
 **Ruixiang Wang**, Qingming Liu, Yueci Deng, Guiliang Liu, Zhen Liu, Kui Jia
 
-[**Paper**](https://eva-project-page.github.io/assets/docs/eva-project-draft.pdf) [**Project**](https://eva-project-page.github.io/)
+[**Project**](https://eva-project-page.github.io/)
 
 - A reward-aligned post-training framework that bridges visually plausible video rollouts and executable robot actions via inverse dynamics rewards.
 </div>
