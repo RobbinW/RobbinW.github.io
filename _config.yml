@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Ruixiang Wang"
   avatar           : "images/ruixiang-wang.jpg"
-  bio              : "PhD Student at School of Data Science, The Chinese University of Hong Kong, Shenzhen"
+  bio              : "Ph.D. Student at School of Data Science, The Chinese University of Hong Kong, Shenzhen"
   location         : "Shenzhen, China"
   employer         : "CUHK-SZ"
   pubmed           : 
