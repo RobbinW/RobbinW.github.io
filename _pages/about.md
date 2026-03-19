@@ -28,7 +28,7 @@ EVA: Aligning Video World Models with Executable Robot Actions via Inverse Dynam
 
 **Ruixiang Wang**, Qingming Liu, Yueci Deng, Guiliang Liu, Zhen Liu, Kui Jia
 
-[**Project**](https://eva-project-page.github.io/)
+[**Project**](https://eva-project-page.github.io/) [**arXiv**](https://arxiv.org/abs/2603.17808)
 
 - A reward-aligned post-training framework that bridges visually plausible video rollouts and executable robot actions via inverse dynamics rewards.
 </div>
