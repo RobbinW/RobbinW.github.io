@@ -24,7 +24,7 @@ My research interests lie in enabling intelligent systems to better perceive and
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/papers/eva.png' alt="EVA overview" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-EVA: Aligning Video World Models with Executable Robot Actions via Inverse Dynamics Rewards
+[EVA: Aligning Video World Models with Executable Robot Actions via Inverse Dynamics Rewards](https://eva-project-page.github.io/)
 
 **Ruixiang Wang**, Qingming Liu, Yueci Deng, Guiliang Liu, Zhen Liu, Kui Jia
 
@@ -37,7 +37,7 @@ EVA: Aligning Video World Models with Executable Robot Actions via Inverse Dynam
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS 2025</div><img src='images/papers/yoto.png' alt="YOTO teaser" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[You Only Teach Once: Learn One-Shot Bimanual Robotic Manipulation from Video Demonstrations](https://www.roboticsproceedings.org/rss21/p149.pdf)
+[You Only Teach Once: Learn One-Shot Bimanual Robotic Manipulation from Video Demonstrations](https://hnuzhy.github.io/projects/YOTO/)
 
 Huayi Zhou, **Ruixiang Wang**, Yunxin Tai, Yueci Deng, Guiliang Liu, Kui Jia
 
