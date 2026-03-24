@@ -107,38 +107,3 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
-
-.visitor-map-section {
-    margin-top: 4rem;
-    padding-top: 1.75rem;
-    text-align: center;
-}
-
-.visitor-map-embed {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 300px;
-    margin: 0 auto;
-    overflow: visible;
-}
-
-.visitor-map-frame {
-    width: 100%;
-    max-width: 340px;
-    min-height: 340px;
-}
-
-.visitor-map-placeholder {
-    width: 320px;
-    min-height: 320px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1.25rem;
-    border: 1px dashed #d7e6f5;
-    border-radius: 24px;
-    color: #6e88a2;
-    line-height: 1.6;
-    background: #fbfdff;
-}
