@@ -1,0 +1,25 @@
+{% assign visitor_map = site.visitor_map %}
+{% if visitor_map and visitor_map.enabled %}
+<section class="visitor-map-section">
+  <div class="visitor-map-embed">
+    {% if visitor_map.script_src %}
+      <script
+        type="text/javascript"
+        id="mmvst_globe"
+        src="{{ visitor_map.script_src }}"></script>
+    {% elsif visitor_map.iframe_src %}
+      <iframe
+        class="visitor-map-frame"
+        src="{{ visitor_map.iframe_src }}"
+        loading="lazy"
+        title="Visitor globe"
+        frameborder="0"
+        scrolling="no"></iframe>
+    {% elsif jekyll.environment == "development" %}
+      <div class="visitor-map-placeholder">
+        Waiting for your ClustrMaps globe embed code.
+      </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}

@@ -88,3 +88,5 @@ Huilin Xu, Jian Ding, Jiakun Xu, **Ruixiang Wang**, Jun Chen, Jinjie Mai, Yanwei
 
 - *2025 - Present*, **PhD Student**, The Chinese University of Hong Kong, Shenzhen.
 - *Sep. 2021 - May 2025*, **B.Eng. in Automation Engineering**, Harbin Institute of Technology, Weihai. GPA: 91.39/100, 3.96/4.00.
+
+{% include visitor-map.html %}
