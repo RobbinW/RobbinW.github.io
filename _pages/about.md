@@ -28,7 +28,7 @@ My research interests lie in enabling intelligent systems to better perceive and
 
 **Ruixiang Wang**, Qingming Liu, Yueci Deng, Guiliang Liu, Zhen Liu, Kui Jia
 
-[**Project**](https://eva-project-page.github.io/) [**arXiv**](https://arxiv.org/abs/2603.17808)
+[**Project**](https://eva-project-page.github.io/) [**arXiv**](https://arxiv.org/abs/2603.17808) [**Code**](http://github.com/RobbinW/EVA)
 
 - A reward-aligned post-training framework that bridges visually plausible video rollouts and executable robot actions via inverse dynamics rewards.
 </div>
@@ -41,7 +41,7 @@ My research interests lie in enabling intelligent systems to better perceive and
 
 Huayi Zhou, **Ruixiang Wang**, Yunxin Tai, Yueci Deng, Guiliang Liu, Kui Jia
 
-[**Paper**](https://www.roboticsproceedings.org/rss21/p149.pdf) [**Project**](https://hnuzhy.github.io/projects/YOTO/) [**arXiv**](https://arxiv.org/abs/2501.14208)
+[**Paper**](https://www.roboticsproceedings.org/rss21/p149.pdf) [**Project**](https://hnuzhy.github.io/projects/YOTO/) [**arXiv**](https://arxiv.org/abs/2501.14208) [**Code**](http://github.com/hnuzhy/YOTO)
 
 - A one-shot framework that transfers bimanual hand motion patterns from human videos to dual-arm robots for long-horizon manipulation.
 </div>
@@ -54,7 +54,7 @@ Huayi Zhou, **Ruixiang Wang**, Yunxin Tai, Yueci Deng, Guiliang Liu, Kui Jia
 
 Huilin Xu, Jian Ding, Jiakun Xu, **Ruixiang Wang**, Jun Chen, Jinjie Mai, Yanwei Fu, Bernard Ghanem, Feng Xu, Mohamed Elhoseiny
 
-[**Paper**](https://arxiv.org/pdf/2507.11296) [**arXiv**](https://arxiv.org/abs/2507.11296)
+[**Paper**](https://arxiv.org/pdf/2507.11296) [**arXiv**](https://arxiv.org/abs/2507.11296) [**Code**](http://github.com/return-sleep/Diffusion_based_imaginative_Coordination)
 
 - A unified diffusion framework that jointly models action prediction and future video generation to improve bimanual coordination.
 </div>
