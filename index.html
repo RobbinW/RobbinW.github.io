@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ruixiang Wang, Ph.D. student working on robot learning and world models.">
+  <title>Ruixiang Wang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <aside class="sidebar" aria-label="Profile and navigation">
+      <div class="profile">
+        <div class="profile-photo" role="img" aria-label="Portrait of Ruixiang Wang"></div>
+        <h1><a href="#about">Ruixiang Wang</a></h1>
+        <strong class="profile-details">
+          <span>Ph.D. student</span>
+          <span>School of Data Science</span>
+          <span>CUHK-SZ</span>
+          <span>Shenzhen, China</span>
+        </strong>
+        <div class="profile-contact">
+          <span>Email: ruixiangwang@link.cuhk.edu.cn</span>
+          <a href="https://scholar.google.com/citations?user=u2_lz64AAAAJ&hl=zh-CN">[Google Scholar]</a>
+          <a href="https://github.com/RobbinW">[GitHub]</a>
+          <button class="wechat-trigger" type="button" aria-haspopup="dialog" aria-controls="wechat-dialog">[WeChat]</button>
+        </div>
+      </div>
+
+      <nav class="main-menu" aria-label="Main navigation">
+        <ul>
+          <li class="active"><a href="#about" data-section-link="about">About</a></li>
+          <li><a href="#news" data-section-link="news">News</a></li>
+          <li><a href="#education" data-section-link="education">Education</a></li>
+          <li><a href="#experience" data-section-link="experience">Experience</a></li>
+          <li><a href="#publications" data-section-link="publications">Publications</a></li>
+          <li><a href="#research" data-section-link="research">Research Interests</a></li>
+        </ul>
+      </nav>
+
+    </aside>
+
+    <main class="main-content">
+      <section id="about" class="section section-compact" data-section="about">
+        <div class="narrow-content reveal">
+          <div class="mobile-profile">
+            <div class="profile-photo"></div>
+            <div><h1>Ruixiang Wang</h1><p>Ph.D. Student · CUHK-SZ</p></div>
+          </div>
+          <h2 class="section-title">About</h2>
+          <p>I am a Ph.D. student in Computer Science at the School of Data Science, The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen), advised by Prof. <a href="http://kuijia.site/">Kui Jia</a>. Previously, I worked with Prof. Guyue Zhou at the Institute for AI Industry Research (AIR), Tsinghua University. I also conducted research at King Abdullah University of Science and Technology (KAUST) under the supervision of Prof. Mohamed Elhoseiny and worked as a Research Intern at DexForce Technology. Before that, I received my B.Eng. in Automation with honors from Harbin Institute of Technology, Weihai.</p>
+          <p>My research focuses on building <strong>embodied intelligence</strong> for perceiving and interacting with the physical world. In particular, I am interested in developing <strong>generalizable robotic manipulation policies</strong> and learning <strong>world models</strong> that capture how the physical world appears, behaves, and evolves.</p>
+        </div>
+      </section>
+
+      <section id="news" class="section section-compact" data-section="news">
+        <div class="narrow-content reveal">
+          <h2 class="section-title">News</h2>
+          <ul class="news-list">
+            <li class="news-featured"><strong>[2026.06]</strong> Our team won <strong>first place</strong> in the <a href="https://huggingface.co/spaces/WorldArena/WorldArena">WorldArena Challenge</a> at CVPR 2026. <span class="news-badge" aria-label="Champion"><span class="news-trophy" aria-hidden="true">🏆</span>Champion</span></li>
+            <li><strong>[2026.06]</strong> One paper was accepted to <strong>IROS 2026</strong>.</li>
+            <li><strong>[2026.04]</strong> <a href="https://ieeexplore.ieee.org/abstract/document/11495283/">YOTO++</a> was accepted to <strong>IEEE TPAMI</strong>.</li>
+            <li><strong>[2026.03]</strong> <a href="https://eva-project-page.github.io/">EVA</a> was released and open-sourced.</li>
+            <li><strong>[2025.10]</strong> One paper was accepted to <strong>IEEE Robotics and Automation Letters (RA-L)</strong>.</li>
+            <li><strong>[2025.09]</strong> I started my Ph.D. at The Chinese University of Hong Kong, Shenzhen.</li>
+            <li><strong>[2025.06]</strong> <a href="https://arxiv.org/abs/2503.06227">GAT-Grasp</a> was accepted to <strong>IROS 2025</strong>.</li>
+            <li><strong>[2025.06]</strong> One paper was accepted to <strong>ICCV 2025</strong>.</li>
+            <li><strong>[2025.04]</strong> <a href="https://hnuzhy.github.io/projects/YOTO/">YOTO</a> was accepted to <strong>RSS 2025</strong>.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="education" class="section section-compact" data-section="education">
+        <div class="narrow-content reveal">
+          <h2 class="section-title">Education</h2>
+          <div class="education-timeline">
+            <article class="education-item">
+              <div class="education-date">Sep. 2025 – Present</div>
+              <div class="education-line"><span class="education-dot"></span></div>
+              <div class="education-content">
+                <div class="education-school">
+                  <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong, Shenzhen</a>
+                  <img src="images/cuhksz-logo.png" alt="CUHK-Shenzhen logo" class="education-logo education-logo-cuhksz">
+                </div>
+                <div class="education-degree">Ph.D. in Computer Science</div>
+              </div>
+            </article>
+            <article class="education-item">
+              <div class="education-date">Sep. 2021 – Jul. 2025</div>
+              <div class="education-line"><span class="education-dot"></span></div>
+              <div class="education-content">
+                <div class="education-school">
+                  <a href="https://www.hitwh.edu.cn/">Harbin Institute of Technology, Weihai</a>
+                  <img src="images/hit-logo.png" alt="Harbin Institute of Technology logo" class="education-logo education-logo-hit">
+                </div>
+                <div class="education-degree">B.Eng. in Automation Engineering (with Honors) · (3.96/4.00)</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section section-compact" data-section="experience">
+        <div class="narrow-content reveal">
+          <h2 class="section-title">Experience</h2>
+          <div class="education-timeline experience-timeline">
+            <article class="education-item">
+              <div class="education-date">May 2026 – Present</div>
+              <div class="education-line"><span class="education-dot"></span></div>
+              <div class="education-content">
+                <div class="education-school">
+                  <a href="https://www.dexforce.com/">DexForce Technology</a>
+                  <img src="images/dexforce-logo.png" alt="DexForce logo" class="education-logo experience-logo-dexforce">
+                </div>
+                <div class="education-degree">Research Intern</div>
+              </div>
+            </article>
+            <article class="education-item">
+              <div class="education-date">Mar. 2025 – Sep. 2025</div>
+              <div class="education-line"><span class="education-dot"></span></div>
+              <div class="education-content">
+                <div class="education-school">
+                  <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong, Shenzhen</a>
+                  <img src="images/cuhksz-logo.png" alt="CUHK-Shenzhen logo" class="education-logo experience-logo-cuhksz">
+                </div>
+                <div class="education-degree">Research Assistant</div>
+              </div>
+            </article>
+            <article class="education-item">
+              <div class="education-date">Nov. 2024 – Feb. 2025</div>
+              <div class="education-line"><span class="education-dot"></span></div>
+              <div class="education-content">
+                <div class="education-school">
+                  <a href="https://www.kaust.edu.sa/en">King Abdullah University of Science and Technology</a>
+                  <img src="images/kaust-logo.svg" alt="KAUST logo" class="education-logo experience-logo-kaust">
+                </div>
+                <div class="education-degree">Research Assistant</div>
+              </div>
+            </article>
+            <article class="education-item">
+              <div class="education-date">Summer 2024</div>
+              <div class="education-line"><span class="education-dot"></span></div>
+              <div class="education-content">
+                <div class="education-school">
+                  <a href="https://air.tsinghua.edu.cn/en/">Institute for AI Industry Research, Tsinghua University</a>
+                  <img src="images/tsinghua-mark.jpg" alt="Tsinghua University logo" class="education-logo experience-logo-tsinghua">
+                </div>
+                <div class="education-degree">Research Assistant</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="publications" class="section" data-section="publications">
+        <div class="narrow-content reveal">
+          <h2 class="section-title">Publications</h2>
+          <div class="publication-tabs" role="tablist" aria-label="Publication view">
+            <button class="tab-button active" type="button" role="tab" aria-selected="true" data-publication-tab="selected">Selected Publications</button>
+            <button class="tab-button" type="button" role="tab" aria-selected="false" data-publication-tab="all">All Publications</button>
+          </div>
+
+          <div class="publication-panel active" data-publication-panel="selected">
+            <article class="publication-card">
+              <a class="publication-thumb" href="https://qch-fa.github.io/vid2wam-website/"><img src="images/papers/vid2wam.png" alt="Vid2WAM framework overview"></a>
+              <div class="publication-copy">
+                <h3>Vid2WAM: Distilling Video Diffusion Priors into World Action Models</h3>
+                <p class="authors">Chenhao Qiu<sup>*</sup>, <strong>Ruixiang Wang<sup>*†</sup></strong>, Runyi Zhao<sup>*</sup>, Sixu Lin, Songen Gu, Shufeng Nan, Guiliang Liu, Kui Jia, Yanwei Fu, Simo Wu <span class="author-notes">(* <em>equal contribution</em> · † <em>project lead</em>)</span></p>
+                <p class="venue"><em>arXiv preprint, 2026</em></p>
+                <p class="paper-links"><a href="https://arxiv.org/pdf/2608.08558">[Paper]</a> <a href="https://qch-fa.github.io/vid2wam-website/">[Project Page]</a></p>
+              </div>
+            </article>
+
+            <article class="publication-card">
+              <a class="publication-thumb" href="https://eva-project-page.github.io/"><img src="images/papers/eva.png" alt="EVA overview"></a>
+              <div class="publication-copy">
+                <h3>EVA: Aligning Video World Models with Executable Robot Actions via Inverse Dynamics Rewards</h3>
+                <p class="authors"><strong>Ruixiang Wang</strong>, Qingming Liu, Yueci Deng, Guiliang Liu, Zhen Liu, Kui Jia</p>
+                <p class="venue"><em>arXiv preprint, 2026</em></p>
+                <p class="paper-links"><a href="https://arxiv.org/abs/2603.17808">[Paper]</a> <a href="https://eva-project-page.github.io/">[Project Page]</a> <a href="http://github.com/RobbinW/EVA">[Code]</a></p>
+              </div>
+            </article>
+
+            <article class="publication-card">
+              <a class="publication-thumb" href="https://hnuzhy.github.io/projects/YOTOPlus/"><img src="images/papers/yotopp.png" alt="YOTO++ system and task overview"></a>
+              <div class="publication-copy">
+                <h3>YOTO++: Learning Long-Horizon Closed-Loop Bimanual Manipulation from One-Shot Human Video Demonstrations</h3>
+                <p class="authors">Huayi Zhou, <strong>Ruixiang Wang</strong>, Yunxin Tai, Yueci Deng, Guiliang Liu, Kui Jia</p>
+                <p class="venue"><em>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2026</em></p>
+                <p class="paper-links"><a href="https://ieeexplore.ieee.org/abstract/document/11495283/">[Paper]</a> <a href="https://hnuzhy.github.io/projects/YOTOPlus/">[Project Page]</a> <a href="http://github.com/hnuzhy/YOTO">[Code]</a></p>
+              </div>
+            </article>
+
+            <article class="publication-card">
+              <a class="publication-thumb" href="https://hnuzhy.github.io/projects/YOTO/"><img src="images/papers/yoto.png" alt="YOTO teaser"></a>
+              <div class="publication-copy">
+                <h3>You Only Teach Once: Learn One-Shot Bimanual Robotic Manipulation from Video Demonstrations</h3>
+                <p class="authors">Huayi Zhou, <strong>Ruixiang Wang</strong>, Yunxin Tai, Yueci Deng, Guiliang Liu, Kui Jia</p>
+                <p class="venue"><em>Robotics: Science and Systems (RSS), 2025</em></p>
+                <p class="paper-links"><a href="https://www.roboticsproceedings.org/rss21/p149.pdf">[Paper]</a> <a href="https://hnuzhy.github.io/projects/YOTO/">[Project Page]</a> <a href="http://github.com/hnuzhy/YOTO">[Code]</a></p>
+              </div>
+            </article>
+
+            <article class="publication-card">
+              <a class="publication-thumb" href="https://arxiv.org/abs/2503.06227"><img src="images/papers/gat-grasp-main.png" alt="GAT-Grasp overview"></a>
+              <div class="publication-copy">
+                <h3>GAT-Grasp: Gesture-Driven Affordance Transfer for Task-Aware Robotic Grasping</h3>
+                <p class="authors"><strong>Ruixiang Wang</strong>, Huayi Zhou, Xinyue Yao, Guiliang Liu, Kui Jia</p>
+                <p class="venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025</em></p>
+                <p class="paper-links"><a href="https://arxiv.org/pdf/2503.06227">[Paper]</a> <a href="https://arxiv.org/abs/2503.06227">[arXiv]</a></p>
+              </div>
+            </article>
+          </div>
+
+          <div class="publication-panel" data-publication-panel="all" hidden>
+            <article class="publication-card">
+              <a class="publication-thumb" href="https://qch-fa.github.io/vid2wam-website/"><img src="images/papers/vid2wam.png" alt="Vid2WAM framework overview"></a>
+              <div class="publication-copy"><h3>Vid2WAM: Distilling Video Diffusion Priors into World Action Models</h3><p class="authors">Chenhao Qiu<sup>*</sup>, <strong>Ruixiang Wang<sup>*†</sup></strong>, Runyi Zhao<sup>*</sup>, Sixu Lin, Songen Gu, Shufeng Nan, Guiliang Liu, Kui Jia, Yanwei Fu, Simo Wu <span class="author-notes">(* <em>equal contribution</em> · † <em>project lead</em>)</span></p><p class="venue"><em>arXiv preprint, 2026</em></p><p class="paper-links"><a href="https://arxiv.org/pdf/2608.08558">[Paper]</a> <a href="https://qch-fa.github.io/vid2wam-website/">[Project Page]</a></p></div>
+            </article>
+            <article class="publication-card">
+              <a class="publication-thumb" href="https://eva-project-page.github.io/"><img src="images/papers/eva.png" alt="EVA overview"></a>
+              <div class="publication-copy"><h3>EVA: Aligning Video World Models with Executable Robot Actions via Inverse Dynamics Rewards</h3><p class="authors"><strong>Ruixiang Wang</strong>, Qingming Liu, Yueci Deng, Guiliang Liu, Zhen Liu, Kui Jia</p><p class="venue"><em>arXiv preprint, 2026</em></p><p class="paper-links"><a href="https://arxiv.org/abs/2603.17808">[Paper]</a> <a href="https://eva-project-page.github.io/">[Project Page]</a> <a href="http://github.com/RobbinW/EVA">[Code]</a></p></div>
+            </article>
+            <article class="publication-card">
+              <a class="publication-thumb" href="https://hnuzhy.github.io/projects/YOTOPlus/"><img src="images/papers/yotopp.png" alt="YOTO++ system and task overview"></a>
+              <div class="publication-copy"><h3>YOTO++: Learning Long-Horizon Closed-Loop Bimanual Manipulation from One-Shot Human Video Demonstrations</h3><p class="authors">Huayi Zhou, <strong>Ruixiang Wang</strong>, Yunxin Tai, Yueci Deng, Guiliang Liu, Kui Jia</p><p class="venue"><em>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2026</em></p><p class="paper-links"><a href="https://ieeexplore.ieee.org/abstract/document/11495283/">[Paper]</a> <a href="https://hnuzhy.github.io/projects/YOTOPlus/">[Project Page]</a> <a href="http://github.com/hnuzhy/YOTO">[Code]</a></p></div>
+            </article>
+            <article class="publication-card">
+              <a class="publication-thumb" href="https://hnuzhy.github.io/projects/YOTO/"><img src="images/papers/yoto.png" alt="YOTO teaser"></a>
+              <div class="publication-copy"><h3>You Only Teach Once: Learn One-Shot Bimanual Robotic Manipulation from Video Demonstrations</h3><p class="authors">Huayi Zhou, <strong>Ruixiang Wang</strong>, Yunxin Tai, Yueci Deng, Guiliang Liu, Kui Jia</p><p class="venue"><em>Robotics: Science and Systems (RSS), 2025</em></p><p class="paper-links"><a href="https://www.roboticsproceedings.org/rss21/p149.pdf">[Paper]</a> <a href="https://hnuzhy.github.io/projects/YOTO/">[Project Page]</a> <a href="http://github.com/hnuzhy/YOTO">[Code]</a></p></div>
+            </article>
+            <article class="publication-card">
+              <a class="publication-thumb" href="https://arxiv.org/abs/2507.11296"><img src="images/papers/diffcoord-main.png" alt="Diffusion-based imaginative coordination overview"></a>
+              <div class="publication-copy"><h3>Diffusion-Based Imaginative Coordination for Bimanual Manipulation</h3><p class="authors">Huilin Xu, Jian Ding, Jiakun Xu, <strong>Ruixiang Wang</strong>, Jun Chen, Jinjie Mai, Yanwei Fu, Bernard Ghanem, Feng Xu, Mohamed Elhoseiny</p><p class="venue"><em>International Conference on Computer Vision (ICCV), 2025</em></p><p class="paper-links"><a href="https://arxiv.org/pdf/2507.11296">[Paper]</a> <a href="https://arxiv.org/abs/2507.11296">[arXiv]</a> <a href="http://github.com/return-sleep/Diffusion_based_imaginative_Coordination">[Code]</a></p></div>
+            </article>
+            <article class="publication-card">
+              <a class="publication-thumb" href="https://arxiv.org/abs/2503.06227"><img src="images/papers/gat-grasp-main.png" alt="GAT-Grasp overview"></a>
+              <div class="publication-copy"><h3>GAT-Grasp: Gesture-Driven Affordance Transfer for Task-Aware Robotic Grasping</h3><p class="authors"><strong>Ruixiang Wang</strong>, Huayi Zhou, Xinyue Yao, Guiliang Liu, Kui Jia</p><p class="venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025</em></p><p class="paper-links"><a href="https://arxiv.org/pdf/2503.06227">[Paper]</a> <a href="https://arxiv.org/abs/2503.06227">[arXiv]</a></p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="research" class="section section-compact" data-section="research">
+        <div class="narrow-content reveal">
+          <h2 class="section-title">Research Interests</h2>
+          <div class="interest-grid">
+            <article><span>01</span><h3>Robot Manipulation</h3><p>Generalizable policies for reliable, long-horizon manipulation.</p></article>
+            <article><span>02</span><h3>World Models</h3><p>Predictive models that remain physically grounded and executable.</p></article>
+            <article><span>03</span><h3>Embodied Intelligence</h3><p>Connecting perception, imagination, and action in the physical world.</p></article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <dialog class="wechat-dialog" id="wechat-dialog" aria-label="WeChat QR code">
+    <button class="wechat-close" type="button" aria-label="Close WeChat QR code">&times;</button>
+    <img src="images/wechat-qr.jpg" alt="WeChat QR code for Ruixiang Wang">
+  </dialog>
+</body>
+</html>
