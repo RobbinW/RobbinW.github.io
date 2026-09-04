@@ -4,6 +4,7 @@
   --muted: #666;
   --sidebar: #f2f3f7;
   --line: #e7e7e7;
+  --sidebar-width: 326px;
 }
 
 * { box-sizing: border-box; }
@@ -12,9 +13,9 @@ body { margin: 0; color: rgba(0,0,0,.7); background: #fff; font-family: "Quicksa
 a { color: var(--blue); text-decoration: none; transition: color .25s ease; }
 a:hover { color: #166cae; }
 img { display: block; max-width: 100%; }
-.page-shell { position: relative; max-width: 1220px; min-height: 100vh; margin: 0 auto; }
+.page-shell { position: relative; max-width: 1280px; min-height: 100vh; margin: 0 auto; }
 
-.sidebar { position: fixed; z-index: 20; width: 300px; height: 100vh; padding: 46px 28px 32px; overflow-y: auto; text-align: center; background: var(--sidebar); transition: transform .5s ease; }
+.sidebar { position: fixed; z-index: 20; width: var(--sidebar-width); height: 100vh; padding: 46px 32px 32px; overflow-y: auto; text-align: center; background: var(--sidebar); transition: transform .5s ease; }
 .profile-photo { width: 150px; height: 150px; margin: 0 auto 30px; border-radius: 50%; background: #ddd url("images/ruixiang-wang-2026-04-24.png") center 33%/cover no-repeat; }
 .profile h1 { margin: 0 0 11px; font: 700 25px/1.3 "Playfair Display", serif; }
 .profile h1 a { color: #000; }
@@ -38,10 +39,11 @@ img { display: block; max-width: 100%; }
 .wechat-close { position: absolute; z-index: 1; top: 7px; right: 9px; width: 30px; height: 30px; padding: 0; border: 0; border-radius: 50%; color: #222; background: rgba(255,255,255,.9); box-shadow: 0 2px 10px rgba(0,0,0,.14); font: 400 24px/28px sans-serif; cursor: pointer; }
 .wechat-close:hover { background: #fff; }
 
-.main-content { float: right; width: calc(100% - 300px); min-height: 100vh; }
+.main-content { float: right; width: calc(100% - var(--sidebar-width)); min-height: 100vh; }
 .section { display: block; width: 100%; padding: 48px 0; clear: both; scroll-margin-top: 20px; }
 .section-compact { padding-top: 28px; padding-bottom: 22px; }
-.narrow-content { padding: 0 34px 0 38px; }
+.section#about { padding-top: 58px; }
+.narrow-content { padding: 0 42px 0 56px; }
 .section-title { position: relative; margin: 0 0 13px; color: #000; font: 700 18px/1.8 "Playfair Display", Georgia, serif; letter-spacing: 5px; text-transform: uppercase; }
 .section p { margin: 0 0 14px; }
 .mobile-profile { display: none; }
@@ -107,8 +109,8 @@ img { display: block; max-width: 100%; }
 .reveal.visible { opacity: 1; clip-path: inset(0); transform: translateY(0); }
 .nav-toggle { display: none; }
 
-@media (min-width: 1221px) {
-  .page-shell { left: min(16px, calc((100vw - 1220px)/2)); }
+@media (min-width: 1281px) {
+  .page-shell { left: min(16px, calc((100vw - 1280px)/2)); }
 }
 
 @media (max-width: 768px) {
@@ -124,12 +126,16 @@ img { display: block; max-width: 100%; }
   body.menu-open .nav-toggle span:nth-child(2) { opacity: 0; }
   body.menu-open .nav-toggle span:last-child { transform: translateY(-7px) rotate(-45deg); }
   .section { padding: 45px 0; scroll-margin-top: 0; }
-  .section:first-child { padding-top: 28px; }
+  .section:first-child, .section#about { padding-top: 34px; }
   .narrow-content { padding: 0; }
-  .mobile-profile { display: flex; align-items: center; gap: 17px; margin: 0 0 26px; padding: 0 0 20px 44px; border-bottom: 1px solid var(--line); }
-  .mobile-profile .profile-photo { flex: 0 0 auto; width: 72px; height: 72px; margin: 0; }
-  .mobile-profile h1 { margin: 0; font: 700 20px/1.3 "Playfair Display", serif; }
-  .mobile-profile p { margin: 3px 0 0; font-size: 12px; }
+  .mobile-profile { display: grid; grid-template-columns: 82px minmax(0, 1fr); align-items: center; gap: 18px; margin: 0 0 30px; padding: 4px 0 24px 44px; border-bottom: 1px solid var(--line); }
+  .mobile-profile .profile-photo { width: 82px; height: 82px; margin: 0; }
+  .mobile-profile-copy { min-width: 0; }
+  .mobile-profile h1 { margin: 0; color: #282828; font: 700 22px/1.3 "Playfair Display", serif; }
+  .mobile-profile p { margin: 3px 0 0; color: #666; font-size: 12.5px; line-height: 1.5; }
+  .mobile-profile-contact { display: flex; flex-wrap: wrap; gap: 1px 8px; margin-top: 8px; font-size: 10.5px; line-height: 1.5; }
+  .mobile-profile-contact a, .mobile-profile-contact .wechat-trigger { display: inline-block; min-height: 28px; padding: 5px 0; border: 0; color: var(--blue); background: transparent; font: inherit; line-height: 1.5; white-space: nowrap; cursor: pointer; }
+  .mobile-profile-contact a:hover, .mobile-profile-contact .wechat-trigger:hover { color: #166cae; }
   .timeline-item { grid-template-columns: 92px 18px minmax(0,1fr); gap: 8px; }
   .timeline-date { font-size: 11px; }
   .education-timeline { margin-left: 0; }
@@ -144,6 +150,14 @@ img { display: block; max-width: 100%; }
   .publication-thumb { width: min(100%, 420px); min-height: 0; }
   .publication-copy h3 { font-size: 14px; }
   .interest-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 430px) {
+  .main-content { padding: 0 14px; }
+  .mobile-profile { grid-template-columns: 76px minmax(0, 1fr); gap: 15px; padding-left: 40px; }
+  .mobile-profile .profile-photo { width: 76px; height: 76px; }
+  .mobile-profile h1 { font-size: 20px; }
+  .mobile-profile-contact { gap: 0 7px; font-size: 10px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

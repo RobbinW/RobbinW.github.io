@@ -59,11 +59,13 @@ tabButtons.forEach((button) => {
   });
 });
 
-const wechatTrigger = document.querySelector(".wechat-trigger");
+const wechatTriggers = document.querySelectorAll(".wechat-trigger");
 const wechatDialog = document.querySelector(".wechat-dialog");
 const wechatClose = document.querySelector(".wechat-close");
 
-wechatTrigger.addEventListener("click", () => wechatDialog.showModal());
+wechatTriggers.forEach((trigger) => {
+  trigger.addEventListener("click", () => wechatDialog.showModal());
+});
 wechatClose.addEventListener("click", () => wechatDialog.close());
 wechatDialog.addEventListener("click", (event) => {
   if (event.target === wechatDialog) wechatDialog.close();
