@@ -76,7 +76,7 @@ img { display: block; max-width: 100%; }
 .education-school a { color: #0484d9; font-size: 16.5px; font-weight: 600; line-height: 1.4; }
 .education-school a:hover { text-decoration: underline; }
 .education-logo { flex: 0 1 auto; width: auto; height: 22px; object-fit: contain; }
-.education-logo-cuhksz { max-width: 205px; }
+.education-logo-cuhksz { height: 28px; max-width: 240px; }
 .education-logo-hit { height: 25px; }
 .education-degree { margin-top: 4px; color: #222; font-size: 13.5px; line-height: 1.5; }
 .experience-timeline { gap: 10px; }
@@ -143,7 +143,7 @@ img { display: block; max-width: 100%; }
   .education-item { grid-template-columns: 90px 40px minmax(0,1fr); }
   .education-date { font-size: 10px; }
   .education-school { align-items: flex-start; flex-direction: column; gap: 4px; }
-  .education-logo-cuhksz { max-width: 170px; }
+  .education-logo-cuhksz, .experience-logo-cuhksz { height: 28px; max-width: 170px; }
   .experience-timeline .education-school { flex-direction: row; align-items: center; }
   .experience-timeline .education-school strong { width: 100%; }
   .publication-card { grid-template-columns: 1fr; gap: 13px; }
