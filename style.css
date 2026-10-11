@@ -46,6 +46,7 @@ img { display: block; max-width: 100%; }
 .narrow-content { padding: 0 42px 0 56px; }
 .section-title { position: relative; margin: 0 0 13px; color: #000; font: 700 18px/1.8 "Playfair Display", Georgia, serif; letter-spacing: 5px; text-transform: uppercase; }
 .section p { margin: 0 0 14px; }
+.collaboration-invitation { color: #c62828; }
 .mobile-profile { display: none; }
 
 .news-list { margin: 0; padding-left: 22px; }
