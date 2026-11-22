@@ -51,6 +51,7 @@ img { display: block; max-width: 100%; }
 
 .news-list { margin: 0; padding-left: 22px; }
 .news-list li { margin-bottom: 3px; }
+.news-list time { display: inline-block; min-width: 8.5ch; color: #4d4d4d; font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; }
 .news-featured { color: #313131; }
 .news-badge { display: inline-flex; align-items: center; gap: 4px; margin-left: 5px; padding: 1px 7px 1px 5px; border: 1px solid #e6b84b; border-radius: 999px; color: #805a00; background: linear-gradient(135deg, #fff8d9, #f8d77a); box-shadow: 0 2px 8px rgba(177, 125, 0, .14); font-size: 9px; font-weight: 700; line-height: 1.6; letter-spacing: .8px; text-transform: uppercase; vertical-align: 1px; }
 .news-trophy { font-size: 11px; line-height: 1; filter: saturate(.9); transform: translateY(-.5px); }
