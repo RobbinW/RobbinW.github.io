@@ -102,9 +102,10 @@ img { display: block; max-width: 100%; }
 .author-notes { display: inline-block; margin-left: 4px; padding: 1px 6px; border-radius: 2px; color: #4a452f; background: #fff7cf; font-size: 10.5px; line-height: 1.4; vertical-align: 1px; }
 .paper-links a { margin-right: 2px; }
 
-.reviewer-roles { display: grid; grid-template-columns: max-content 1fr; gap: 6px 24px; margin: 0; }
-.reviewer-roles dt { color: var(--ink); font-weight: 600; }
-.reviewer-roles dd { margin: 0; }
+.reviewer-roles { margin: 0; padding-left: 22px; }
+.reviewer-roles > li + li { margin-top: 5px; }
+.reviewer-roles ul { margin: 3px 0 0; padding-left: 24px; list-style: circle; }
+.section#research { padding-bottom: clamp(80px, 12vh, 144px); }
 
 .interest-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-top: 10px; }
 .interest-grid article { min-height: 170px; padding: 21px 19px; border-bottom: 2px solid var(--blue); box-shadow: 0 0 22px rgba(0,0,0,.08); }
@@ -160,8 +161,6 @@ img { display: block; max-width: 100%; }
 }
 
 @media (max-width: 430px) {
-  .reviewer-roles { grid-template-columns: 1fr; gap: 0; }
-  .reviewer-roles dd + dt { margin-top: 10px; }
   .main-content { padding: 0 14px; }
   .mobile-profile { grid-template-columns: 76px minmax(0, 1fr); gap: 15px; padding-left: 40px; }
   .mobile-profile .profile-photo { width: 76px; height: 76px; }
